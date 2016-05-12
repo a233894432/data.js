@@ -1,7 +1,7 @@
 {
   "name": "data_js",
   "description": "data.js 是带有消息通知的数据中心，我称其为会说话的数据。旨在让编程变得简单，世界变得美好。",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "homepage": "https://github.com/yanhaijing/data.js",
   "author": {
     "name": "yanhaijing",
@@ -25,13 +25,13 @@
     "node": ">= 0.8.0"
   },
   "scripts": {
-    "test": "grunt test"
+    "test": "mocha test"
   },
   "devDependencies": {
-    "grunt-contrib-nodeunit": "~0.3.3",
-    "grunt-contrib-jshint": "~0.6.0",
-    "grunt-contrib-uglify": "~0.4.0",
-    "grunt": "~0.4.5"
+    "expect.js": "~0.3.1",
+    "gulp": "~3.9.0",
+    "gulp-jshint": "~2.0.0",
+    "jshint": "~2.9.1-rc3"
   },
   "keywords": [
     "data",
